@@ -1,0 +1,9 @@
+{
+  "targets": {
+    "serve": {
+      "dependsOn": ["build"],
+      "executor": "nx:run-script",
+      "options": { "script": "serve" }
+    }
+  }
+}

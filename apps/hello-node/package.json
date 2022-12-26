@@ -1,0 +1,10 @@
+{
+  "name": "hello-node",
+  "version": "0.0.0",
+  "main": "dist/index.js",
+  "devDependencies": {},
+  "scripts": {
+    "build": "tsc index.ts --outDir dist",
+    "serve": "node dist/index.js"
+  }
+}
