@@ -35,6 +35,7 @@ importers:
       axios: ^1.2.1
       compression: ^1.7.4
       cross-env: ^7.0.3
+      is-odd: workspace:^0.0.0
       knex: ^2.3.0
       mocha: ^10.2.0
       nodemon: ^2.0.20
@@ -58,6 +59,7 @@ importers:
       '@feathersjs/transport-commons': 5.0.0-pre.34
       '@feathersjs/typebox': 5.0.0-pre.34
       compression: 1.7.4
+      is-odd: link:../../packages/is-odd
       knex: 2.3.0_sqlite3@5.1.4
       sqlite3: 5.1.4
       winston: 3.8.2
