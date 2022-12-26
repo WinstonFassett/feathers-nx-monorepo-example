@@ -1,2 +1,4 @@
-export const isEven = (x: number) => x % 2 === 0;
-console.log('yo');
+import { isOdd } from "is-odd";
+
+const is1Odd = isOdd(1)
+console.log('yo', { is1Odd });
