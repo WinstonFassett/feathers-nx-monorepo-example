@@ -29,7 +29,8 @@
   "main": "lib/client",
   "scripts": {
     "dev": "nodemon -x ts-node src/index.ts",
-    "build": "shx rm -rf lib/ && tsc",
+    "clean": "shx rm -rf lib/",
+    "build": "pnpm clean && tsc",    
     "serve": "node lib/",
     "prettier": "npx prettier \"**/*.ts\" --write",
     "mocha": "cross-env NODE_ENV=test mocha test/ --require ts-node/register --recursive --extension .ts --exit",

@@ -23,6 +23,7 @@
   },
   "scripts": {
     "serve": "react-scripts start",
+    "clean": "shx rm -rf build/",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
