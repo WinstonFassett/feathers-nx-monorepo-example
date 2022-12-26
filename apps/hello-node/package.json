@@ -2,9 +2,8 @@
   "name": "hello-node",
   "version": "0.0.0",
   "main": "dist/index.js",
-  "devDependencies": {},
   "dependencies": {
-    "is-odd": "*"
+    "is-odd": "workspace:^0.0.0"
   },
   "scripts": {
     "build": "tsc index.ts --outDir dist",
