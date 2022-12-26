@@ -6,7 +6,7 @@
     "is-odd": "workspace:^0.0.0"
   },
   "scripts": {
-    "build": "tsc index.ts --outDir dist",
+    "build": "tsc index.ts --outDir dist --lib \"es2015, dom\"",
     "clean": "shx rm -rf dist/",
     "serve": "node dist/index.js"
   }

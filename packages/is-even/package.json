@@ -4,7 +4,7 @@
   "main": "dist/index.js",
   "devDependencies": {},
   "scripts": {
-    "build": "tsc index.ts --outDir dist",
+    "build": "tsc index.ts --outDir dist --lib \"es2015, dom\"",
     "clean": "shx rm -rf dist/"
   }
 }
