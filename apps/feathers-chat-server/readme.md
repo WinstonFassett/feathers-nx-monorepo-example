@@ -12,16 +12,13 @@ This project uses [Feathers](http://feathersjs.com). An open source framework fo
 2. Install your dependencies
 
     ```
-    cd path/to/typescript
-    npm install
+    pnpm install
     ```
 
 3. Start your app
 
     ```
-    npm run compile # Compile TypeScript source
-    npm run migrate # Run migrations to set up the database
-    npm start
+    nx serve
     ```
 
 ## Testing
