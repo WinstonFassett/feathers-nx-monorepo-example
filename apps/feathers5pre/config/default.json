@@ -11,7 +11,7 @@
   },
   "sqlite": {
     "client": "sqlite3",
-    "connection": "db.sqlite",
+    "connection": "../../data/feathers5pre.sqlite",
     "useNullAsDefault": true
   }
 }
