@@ -1,5 +1,5 @@
 {
-  "name": "react-chat",
+  "name": "feathers-chat-client",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -13,7 +13,7 @@
     "@types/node": "^16.11.45",
     "@types/react": "^18.0.15",
     "@types/react-dom": "^18.0.6",
-    "feathers-chat": "file:../typescript",
+    "feathers-chat-server": "workspace:^0.0.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-scripts": "5.0.1",

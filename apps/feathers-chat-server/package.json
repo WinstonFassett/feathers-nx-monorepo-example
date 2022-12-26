@@ -1,5 +1,5 @@
 {
-  "name": "feathers-chat",
+  "name": "feathers-chat-server",
   "description": "A Feathers chat API written in TypeScript",
   "version": "0.0.0",
   "homepage": "",
@@ -11,7 +11,6 @@
   "contributors": [],
   "bugs": {},
   "engines": {
-    "node": ">= 18.10.0"
   },
   "feathers": {
     "language": "ts",

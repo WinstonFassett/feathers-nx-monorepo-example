@@ -3,7 +3,7 @@ import { Chat } from './components/Chat';
 
 import { Login } from './components/Login';
 import { client } from './feathers';
-import { UserData } from 'feathers-chat/lib/client'
+import { UserData } from 'feathers-chat-server'
 
 function App() {
   const [user, setUser] = useState<UserData|null>(null)

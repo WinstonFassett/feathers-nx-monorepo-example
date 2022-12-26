@@ -1,7 +1,7 @@
 import { Paginated } from '@feathersjs/feathers/lib';
 import { useEffect, useRef, useState } from 'react';
 import { client } from '../feathers';
-import { MessageData } from 'feathers-chat'
+import { MessageData } from 'feathers-chat-server'
 
 const formatDate = (timestamp: number) => new Intl.DateTimeFormat('en-US', {
   timeStyle: 'short',

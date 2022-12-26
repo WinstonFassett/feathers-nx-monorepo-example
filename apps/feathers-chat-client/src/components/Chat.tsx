@@ -1,6 +1,6 @@
 import { Paginated } from '@feathersjs/feathers';
 import React, { useEffect, useState } from 'react';
-import { UserData } from 'feathers-chat';
+import { UserData } from 'feathers-chat-server';
 import { client } from '../feathers';
 import { Messages } from './Messages';
 

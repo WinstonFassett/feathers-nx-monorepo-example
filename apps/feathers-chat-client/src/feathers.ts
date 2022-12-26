@@ -1,7 +1,7 @@
 import io from 'socket.io-client';
 import socketio from '@feathersjs/socketio-client';
 import authentication from '@feathersjs/authentication-client';
-import { createClient } from 'feathers-chat';
+import { createClient } from 'feathers-chat-server';
 
 const connection = socketio(io('http://localhost:3030'));
 const client = createClient(connection as any);
