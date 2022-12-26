@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "serve": {
+      "dependsOn": ["build"],
+      "executor": "nx:run-script",
+      "options": { "script": "serve" }
+    },
+    "migrate": {
+      "dependsOn": ["build"],
+      "executor": "nx:run-script",
+      "options": { "script": "migrate" }
+    }
+  }
+}
