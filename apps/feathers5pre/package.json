@@ -35,8 +35,8 @@
   "main": "lib/client",
   "scripts": {
     "dev": "nodemon -x ts-node src/index.ts",
-    "compile": "shx rm -rf lib/ && tsc",
-    "start": "node lib/",
+    "build": "shx rm -rf lib/ && tsc",
+    "serve": "node lib/",
     "prettier": "npx prettier \"**/*.ts\" --write",
     "mocha": "cross-env NODE_ENV=test mocha test/ --require ts-node/register --recursive --extension .ts --exit",
     "test": "cross-env NODE_ENV=test npm run migrate && npm run mocha",
