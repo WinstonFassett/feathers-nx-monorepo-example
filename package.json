@@ -2,7 +2,12 @@
   "name": "feathers-nx-monorepo-example",
   "version": "0.0.0",
   "license": "MIT",
-  "scripts": {},
+  "scripts": {
+    "clean": "nx run-many --target=clean && nx reset",
+    "build": "nx run-many --target=build",
+    "migrate": "nx run-many --target=migrate",
+    "serve": "nx run-many --target=serve"
+  },
   "private": true,
   "devDependencies": {
     "nx": "15.4.1",
