@@ -13,6 +13,7 @@
     "@types/node": "^16.11.45",
     "@types/react": "^18.0.15",
     "@types/react-dom": "^18.0.6",
+    "@types/testing-library__jest-dom": "^5.14.5",
     "feathers-chat-server": "workspace:^0.0.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",

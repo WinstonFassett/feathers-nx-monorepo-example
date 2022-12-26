@@ -18,9 +18,9 @@ const formats: FormatsPluginOptions = [
   'regex'
 ]
 
-export const dataValidator = addFormats(new Ajv({}), formats)
+export const dataValidator: Ajv = addFormats(new Ajv({}), formats)
 
-export const queryValidator = addFormats(
+export const queryValidator: Ajv = addFormats(
   new Ajv({
     coerceTypes: true
   }),
